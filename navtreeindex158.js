@@ -1,5 +1,9 @@
 var NAVTREEINDEX158 =
 {
+"structpathfinding__settings.html#acba070ceb6ae16b9c3991a1d2814d4c8":[36,0,743,8],
+"structpathfinding__settings.html#ad0b14e2ee3fc5bb59d985e98e2fa9504":[36,0,743,11],
+"structpathfinding__settings.html#ad6c8b466453d6bd53db004ce7ab625c4":[36,0,743,10],
+"structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html":[36,0,33,0,0],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html":[35,0,165,0,0],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a6e73915d672ef4b2182873654c46945b":[36,0,33,0,0,3],
 "structpf_1_1anonymous__namespace_02simple__pathfinding_8cpp_03_1_1navigation__node.html#a6e73915d672ef4b2182873654c46945b":[35,0,165,0,0,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX158 =
 "structprepared__item__consumption.html#a44e53bf0b04863165d087329f724ff2f":[36,0,770,1],
 "structprepared__item__consumption.html#a4d3d155f6442938cb4cb7eba3a68553c":[36,0,770,0],
 "structprepared__item__consumption.html#a96d89b9e2577f72ba5d0f90a6811483d":[36,0,770,2],
-"structprintf__formatter.html":[36,0,772],
-"structprintf__formatter.html#a2df8a8e343a2dbdc96e71c580c2bc988":[36,0,772,0],
-"structprintf__formatter.html#a339e8b7c2916129b1e1001bfd68fe584":[36,0,772,1],
-"structprintf__formatter.html#ad4ca7b204b381a7fdb7c4a94952217b3":[36,0,772,2],
-"structprofession_1_1itypedec.html":[36,0,773,0]
+"structprintf__formatter.html":[36,0,772]
 };

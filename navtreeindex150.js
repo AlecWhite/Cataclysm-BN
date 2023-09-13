@@ -1,5 +1,9 @@
 var NAVTREEINDEX150 =
 {
+"structforest__trail__settings.html#a8dea659bbc57867d2ec96303fd9e9d82":[36,0,356,12],
+"structforest__trail__settings.html#a95e73b07d1294f9f0d43a97b32b5e920":[36,0,356,3],
+"structforest__trail__settings.html#aa22929552c18812f9d65285811782211":[36,0,356,8],
+"structforest__trail__settings.html#aaf18f503eff0edb67b81a8399450f5cd":[36,0,356,13],
 "structforest__trail__settings.html#ad1593f2abdbc957e3b6243b9045f33cc":[36,0,356,5],
 "structforest__trail__settings.html#ad548544c752adb158681d4551f449b9d":[36,0,356,15],
 "structforest__trail__settings.html#adf4af8b09dab9c71ce699030ee6125b0":[36,0,356,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX150 =
 "structis__contiguous.html":[36,0,438],
 "structis__contiguous_3_01basic__memory__buffer_3_01T_00_01SIZE_00_01Allocator_01_4_01_4.html":[36,0,439],
 "structis__contiguous_3_01std_1_1basic__string_3_01Char_01_4_01_4.html":[36,0,440],
-"structislot__ammo.html":[36,0,448],
-"structislot__ammo.html#a067571acedb780b02faa4320ff0a7745":[36,0,448,9],
-"structislot__ammo.html#a3904c72b147fc5bb85bdf443dc61538d":[36,0,448,10],
-"structislot__ammo.html#a4e55e746a4e82e094d70ed42f1cf1ac1":[36,0,448,6],
-"structislot__ammo.html#a50b0b4c535f2b4a412335f917110bd29":[36,0,448,15]
+"structislot__ammo.html":[36,0,448]
 };

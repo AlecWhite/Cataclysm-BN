@@ -671,7 +671,7 @@ $(document).ready(function(){initNavTree('mattack__actors_8cpp_source.html','');
 <div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span>    }</div>
 <div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span> </div>
 <div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span>    <span class="comment">// One last check to make sure we&#39;re not firing on a friendly</span></div>
-<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>    <span class="keywordflow">if</span>( z.<a class="code hl_function" href="classmonster.html#a125622587c2069dc4dbbe07943c81336">attitude_to</a>( *target ) == <a class="code hl_enumvalue" href="classCreature.html#a8a475630b3289c468bd06cf114008217ac45ee12dee5d3dc56de7fe86e4484bea">Creature::A_FRIENDLY</a> ) {</div>
+<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>    <span class="keywordflow">if</span>( target &amp;&amp; z.<a class="code hl_function" href="classmonster.html#a125622587c2069dc4dbbe07943c81336">attitude_to</a>( *target ) == <a class="code hl_enumvalue" href="classCreature.html#a8a475630b3289c468bd06cf114008217ac45ee12dee5d3dc56de7fe86e4484bea">Creature::A_FRIENDLY</a> ) {</div>
 <div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>    }</div>
 <div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>    <span class="keywordtype">int</span> dist = <a class="code hl_function" href="coordinates_8h.html#a47953b33a873caa0861b12222842a5ec">rl_dist</a>( z.<a class="code hl_function" href="classmonster.html#a55d95177d49525c0da7649f135a6306d">pos</a>(), aim_at );</div>
@@ -1043,7 +1043,7 @@ $(document).ready(function(){initNavTree('mattack__actors_8cpp_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="mattack__actors_8cpp.html">mattack_actors.cpp</a></li>
-    <li class="footer">Generated on Tue Sep 12 2023 23:22:38 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Wed Sep 13 2023 22:27:21 for Cataclysm BN by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>

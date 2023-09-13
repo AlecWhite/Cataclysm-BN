@@ -604,7 +604,8 @@ var namespaces_dup =
       ] ]
     ] ],
     [ "game_info", "namespacegame__info.html", [
-      [ "bitness", "namespacegame__info.html#a89e70b6c3190e6d2d5cd25d30388fd84", null ],
+      [ "bitness", "namespacegame__info.html#a346914292a97ce585747c5f07fa41027", null ],
+      [ "bitness_string", "namespacegame__info.html#acdbccaac41fc7f113ba5d011321557b4", null ],
       [ "game_report", "namespacegame__info.html#a6e2841c65be4bf7f92290991465a9edb", null ],
       [ "game_version", "namespacegame__info.html#aee3ac3ce7ea3341cfcb88e84261ba800", null ],
       [ "graphics_version", "namespacegame__info.html#a61e6df366ab3796e27177f4e4d777dc0", null ],

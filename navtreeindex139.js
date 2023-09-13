@@ -1,5 +1,9 @@
 var NAVTREEINDEX139 =
 {
+"structbasic__format__specs.html":[36,0,104],
+"structbasic__format__specs.html#a06daac73c25f7975686f9c1f5d39ef1b":[36,0,104,5],
+"structbasic__format__specs.html#a13916cccec89df957bd2ad7f21a9a856":[36,0,104,3],
+"structbasic__format__specs.html#a19b57f324eb8ed2b6cc96329009b1612":[36,0,104,1],
 "structbasic__format__specs.html#a3e5701aefaa9266a5a2d531f9789167d":[36,0,104,6],
 "structbasic__format__specs.html#a540259499cbd3ccbc3e43dd94aa3c188":[36,0,104,2],
 "structbasic__format__specs.html#a56147eaae543dbf9967f68ada088cc00":[36,0,104,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX139 =
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1activates__artifact_01_4.html#ae723bf7d0556ab9ca6562ff3059e48c8":[35,0,78,1,1,0],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1activates__mininuke_01_4.html":[35,0,78,1,2],
 "structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1activates__mininuke_01_4.html":[36,0,14,0,2],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1administers__mutagen_01_4.html":[35,0,78,1,3],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1administers__mutagen_01_4.html":[36,0,14,0,3],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1administers__mutagen_01_4.html#a20e3fd5f343867cec236cd4eb24a5dfc":[36,0,14,0,3,0],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1administers__mutagen_01_4.html#a20e3fd5f343867cec236cd4eb24a5dfc":[35,0,78,1,3,0],
-"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1angers__amigara__horrors_01_4.html":[36,0,14,0,4]
+"structcata_1_1event__detail_1_1event__spec_3_01event__type_1_1administers__mutagen_01_4.html":[35,0,78,1,3]
 };
