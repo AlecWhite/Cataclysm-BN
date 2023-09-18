@@ -205,6 +205,8 @@ enum action_id : int {
     ACTION_SLEEP,
     /** Open vehicle control menu */
     ACTION_CONTROL_VEHICLE,
+    /** Opens cooking menu*/
+    ACTION_COOK,
     /** Turn auto travel mode on/off */
     ACTION_TOGGLE_AUTO_TRAVEL_MODE,
     /** Turn safemode on/off, while leaving autosafemode intact */

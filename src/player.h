@@ -180,6 +180,8 @@ class player : public Character
         void long_craft( const tripoint &loc = tripoint_zero );
         void make_craft( const recipe_id &id, int batch_size, const tripoint &loc = tripoint_zero );
         void make_all_craft( const recipe_id &id, int batch_size, const tripoint &loc = tripoint_zero );
+        /** Opens the cooking menu*/
+        void cook();
         /** consume components and create an active, in progress craft containing them */
         item_location start_craft( craft_command &command, const tripoint &loc );
         /**

@@ -347,6 +347,8 @@ std::string action_ident( action_id act )
             return "open_world_mods";
         case ACTION_DISTRACTION_MANAGER:
             return "open_distraction_manager";
+        case ACTION_COOK:
+            return "Open cooking menu";
         case ACTION_NULL:
             return "null";
         default:
@@ -861,7 +863,7 @@ action_id handle_action_menu()
         } else if( category == _( "Craft" ) ) {
             register_actions( {
                 ACTION_CRAFT, ACTION_RECRAFT, ACTION_LONGCRAFT,
-                ACTION_CONSTRUCT, ACTION_DISASSEMBLE
+                ACTION_CONSTRUCT, ACTION_DISASSEMBLE, ACTION_COOK
             } );
         } else if( category == _( "Info" ) ) {
             register_actions( {

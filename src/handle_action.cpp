@@ -2565,6 +2565,18 @@ bool game::handle_action()
                 avatar_action::autoattack( u, m );
                 break;
 
+            case ACTION_COOK:
+                if (u.has_active_mutation(trait_SHELL2)) {
+                    add_msg(m_info, _("You can't cook while you're in your shell."));
+                }
+                else if (u.is_mounted()) {
+                    add_msg(m_info, _("You can't cook while you're riding."));
+                }
+                else {
+                    u.cook();
+                }
+                break;
+
             default:
                 break;
         }
