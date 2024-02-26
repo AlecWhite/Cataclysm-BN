@@ -6,42 +6,48 @@
 #include "output.h"
 using namespace catacurses;
 
+bool isWide = false;
+int windowHeight = 5;
+int windowWidth;
 
 void cooking_ui() {
     // Needed for UI to draw
     ui_adaptor ui;
 
     // Ncurses window for drawing
-    catacurses::window window;
+    catacurses::window windowHead;
     // Takes care of the resizing procress
     ui.on_screen_resize([&](ui_adaptor& ui) {
+    
+    //Cargo culting from crafting_gui to the the correct width
+    const int freeWidth = TERMX - FULL_SCREEN_WIDTH;
+    isWide = (TERMX > FULL_SCREEN_WIDTH && freeWidth > 15);
+    windowWidth = isWide ? (freeWidth > FULL_SCREEN_WIDTH ? FULL_SCREEN_WIDTH * 2 : TERMX) :
+        FULL_SCREEN_WIDTH;
+    int wStart = (TERMX - windowWidth) / 2;
     // Create an ncurses window
-    // TERMX and TERMY are defined in output.h as the maximum terminal size
-    window = catacurses::newwin(TERMX - 5, TERMY / 2, point(15,5));
+    
+    windowHead = catacurses::newwin(windowHeight,windowWidth, point(wStart,0));
 
 
 
     // The window passed to this call must contain all the space the redraw
     // callback draws to, to ensure proper refreshing when resizing or exiting
     // from other UIs.
-    ui.position_from_window(window);
+    ui.position_from_window(windowHead);
          });
     // Mark the resize callback to be called on the first redraw
     ui.mark_resize();
     // Things to do when redrawing the UI
     ui.on_redraw([&](const ui_adaptor&) {
     // Clear UI area
-    werase(window);
+    werase(windowHead);
 
     // Print things
-    mvwprintw(window, point_zero, "Cooking menu, work in progress, ask again in two to three months");
-    // Draw boxes around the window
-    //mvwputch(window, point(0, getmaxy(window) - 1), BORDER_COLOR, LINE_OXXO); // |^
-    //mvwputch(window, point(0, getmaxy(window) - 1), BORDER_COLOR, LINE_OXOX); // |^
-    mvwputch(window, point(0, 0), BORDER_COLOR, LINE_OXXO); // |^
-    mvwputch(window, point(0, 0), BORDER_COLOR, LINE_OXOX); // |^
+    mvwprintw(windowHead, point_zero, "Cooking menu, work in progress, ask again in two to three months");
+
     // Write to frame buffer
-    wnoutrefresh(window);
+    wnoutrefresh(windowHead);
     });
     add_msg("cooking_ui text");
     
