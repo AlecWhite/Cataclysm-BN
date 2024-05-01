@@ -284,5 +284,22 @@
     "sound_category": "snowstorm",
     "sun_intensity": "none",
     "requirements": { "temperature_max": 33, "windpower_min": 15, "required_weathers": [ "thunder", "lightning" ] }
+  },
+  {
+    "id": "aurora",
+    "type": "weather_type",
+    "name": "Aurora",
+    "color": "c_white_cyan",
+    "map_color": "c_white_cyan",
+    "glyph": " ",
+    "ranged_penalty": 4,
+    "sight_penalty": 1.5,
+    "light_modifier": 30,
+    "sound_attn": 0,
+    "dangerous": false,
+    "precip": "none",
+    "rains": false,
+    "acidic": false,
+    "sun_intensity": "none"
   }
 ]
